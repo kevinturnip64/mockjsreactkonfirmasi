@@ -1,0 +1,24 @@
+{
+    "00000001":{
+        "PatientID": "00000001",
+        "PatientName": "Subject Contoh Pasien A",
+        "PatientSex": "L",
+        "PatientBirthPlace": "Medan",
+        "PatientBirthDate": "1 Januari 1945",
+        "PatientReligion": "Kristen",
+        "PatientPhoneNumber": "0822 0001 0001",
+        "PatientAddress": "Jl.Ki Hajar Dewantara",
+        "PatientPIC": "Ayah dari subject contoh pasien A"
+    },
+    "00000002":{
+        "PatientID": "00000002",
+        "PatientName": "Subject Contoh Pasien B",
+        "PatientSex": "L",
+        "PatientBirthPlace": "Medan",
+        "PatientBirthDate": "1 Januari 1945",
+        "PatientReligion": "Kristen",
+        "PatientPhoneNumber": "0822 0001 0001",
+        "PatientAddress": "Jl.Ki Hajar Dewantara",
+        "PatientPIC": "Ayah dari subject contoh pasien A"
+    }
+}

@@ -1,0 +1,432 @@
+{
+    "MPatient": [{
+      "1" : {
+        "Number": "1",
+        "PatientID": "00000001",
+        "PatientName": "Subject Contoh Pasien A",
+        "PatientSex": "L",
+        "PatientBirthPlace": "Medan",
+        "PatientBirthDate": "1 Januari 1945",
+        "PatientReligion": "Kristen",
+        "PatientPhoneNumber": "0822 0001 0001",
+        "PatientAddress": "Jl.Ki Hajar Dewantara",
+        "PatientPIC": "Ayah dari subject contoh pasien A"
+      },
+      "2": {
+        "Number": "2",
+        "PatientID": "00000002",
+        "PatientName": "Subject Contoh Pasien B",
+        "PatientSex": "L",
+        "PatientBirthPlace": "Medan",
+        "PatientBirthDate": "1 Januari 1945",
+        "PatientReligion": "Kristen",
+        "PatientPhoneNumber": "0822 0001 0001",
+        "PatientAddress": "Jl.Ki Hajar Dewantara",
+        "PatientPIC": "Ayah dari subject contoh pasien A"
+      }
+    }],
+    "TRegistration": [
+      {
+        "RegType": "RJ",
+        "PatientRegID": "REG/0001/0001",
+        "PatientID": "00000001",
+        "PoliReg": "Poli Anak",
+        "DoctorReg": "D0001",
+        "DoctorName": "Dr.Contoh 1",
+        "NoAntrian": "C1",
+        "JamDaftar": "00:01",
+        "Status": "Active"
+      }
+    ],
+    "MPJoinTRegistration": [
+      {
+        "Number": "1",
+        "TRegTypeService": "RJ",
+        "TRegPatientID": "00000001",
+        "MPatientName": "Subject Contoh Pasien A",
+        "TRegPoli": "Poli Anak",
+        "TRegDoctor": "D0001",
+        "TRekanan": "",
+        "TNoAntrian": "C1",
+        "TJamDaftar": "00:01",
+        "TStatus": "Menunggu"
+      },
+      {
+        "Number": "2",
+        "TRegTypeService": "RJ",
+        "TRegPatientID": "00000002",
+        "MPatientName": "Subject Contoh Pasien B",
+        "TRegPoli": "Poli Jantung",
+        "TRegDoctor": "D0002",
+        "TRekanan": "",
+        "TNoAntrian": "C2",
+        "TJamDaftar": "01:01",
+        "TStatus": "Menunggu"
+      }
+    ],
+    "PatientQueue": [
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016221",
+        "nama_pasien": "Asraf Muhammad",
+        "poli": "Poli Anak",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C1",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016222",
+        "nama_pasien": "Bunga Melon",
+        "poli": "Poli Obgyn",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C2",
+        "jam_daftar": "00:02",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016223",
+        "nama_pasien": "Carlsta",
+        "poli": "Poli Jantung",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C3",
+        "jam_daftar": "00:03",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RI",
+        "pasien_id": "00016224",
+        "nama_pasien": "Denny Sumardono",
+        "poli": "Poli Anak",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "B1",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      },
+      {
+        "jenis_layanan": "RJ",
+        "pasien_id": "00016225",
+        "nama_pasien": "Efan Dimsum",
+        "poli": "Poli Umum",
+        "dokter": "Dr. Zaenab Anak Yong Lex",
+        "rekanan": "",
+        "no_antrian": "C4",
+        "jam_daftar": "00:01",
+        "status": "Active"
+      }
+    ]
+  }

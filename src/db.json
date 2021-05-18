@@ -1,0 +1,361 @@
+{
+  "MPJoinTRegistration": [
+    {
+      "Number": "1",
+      "TRegTypeService": "RJ",
+      "TRegPatientID": "00000001",
+      "MPatientName": "FIRNA NASYWA SALSABILA",
+      "TRegPoliID": "P0004",
+      "TRegPoliName": "POLI BEDAH_SPESIALIS",
+      "TRegDoctorID": "D0001",
+      "TRegDoctor": "dr. Aplin Ismunanto, Sp.B",
+      "TRekanan": "",
+      "TNoAntrian": "C1",
+      "TJamDaftar": "01:00",
+      "TStatus": "Menunggu"
+    },
+    {
+      "Number": "2",
+      "TRegTypeService": "RJ",
+      "TRegPatientID": "00000002",
+      "MPatientName": "BAYU EKA PRATAMA",
+      "TRegPoliID": "P0004",
+      "TRegPoliName": "POLI BEDAH_SPESIALIS",
+      "TRegDoctorID": "D0001",
+      "TRegDoctor": "dr. Aplin Ismunanto, Sp.B",
+      "TRekanan": "",
+      "TNoAntrian": "C2",
+      "TJamDaftar": "02:00",
+      "TStatus": "Menunggu"
+    },
+    {
+      "Number": "3",
+      "TRegTypeService": "RJ",
+      "TRegPatientID": "00000003",
+      "MPatientName": "RAHMA AZZAHRA",
+      "TRegPoliID": "P0002",
+      "TRegPoliName": "POLI OBGYN_SPESIALIS",
+      "TRegDoctorID": "D0002",
+      "TRegDoctor": "dr. Binsar Simorangkir",
+      "TRekanan": "",
+      "TNoAntrian": "C3",
+      "TJamDaftar": "03:00",
+      "TStatus": "Menunggu"
+    },
+    {
+      "Number": "4",
+      "TRegTypeService": "RJ",
+      "TRegPatientID": "00000004",
+      "MPatientName": "KHAYLA MULYANTI",
+      "TRegPoliID": "P0002",
+      "TRegPoliName": "POLI OBGYN_SPESIALIS",
+      "TRegDoctorID": "D0003",
+      "TRegDoctor": "dr. Budi",
+      "TRekanan": "",
+      "TNoAntrian": "C4",
+      "TJamDaftar": "04:00",
+      "TStatus": "Menunggu"
+    },
+    {
+      "Number": "5",
+      "TRegTypeService": "RJ",
+      "TRegPatientID": "00000005",
+      "MPatientName": "MAULIDYA APRIYANI",
+      "TRegPoliID": "P0004",
+      "TRegPoliName": "POLI BEDAH_SPESIALIS",
+      "TRegDoctorID": "D0001",
+      "TRegDoctor": "dr. Aplin Ismunanto, Sp.B",
+      "TRekanan": "",
+      "TNoAntrian": "C5",
+      "TJamDaftar": "05:00",
+      "TStatus": "Menunggu"
+    },
+    {
+      "Number": "6",
+      "TRegTypeService": "RJ",
+      "TRegPatientID": "00000006",
+      "MPatientName": "GREGORIAN IVOLITO R.",
+      "TRegPoliID": "P0009",
+      "TRegPoliName": "POLI INTERNIST_SPESIALIS",
+      "TRegDoctorID": "D0006",
+      "TRegDoctor": "dr. H.A. Syaiful K",
+      "TRekanan": "",
+      "TNoAntrian": "C6",
+      "TJamDaftar": "06:00",
+      "TStatus": "Menunggu"
+    },
+    {
+      "Number": "7",
+      "TRegTypeService": "RJ",
+      "TRegPatientID": "00000007",
+      "MPatientName": "RANIA FAUZIAH NUR W.",
+      "TRegPoliID": "P0002",
+      "TRegPoliName": "POLI OBGYN_SPESIALIS",
+      "TRegDoctorID": "D0003",
+      "TRegDoctor": "dr. Budi",
+      "TRekanan": "",
+      "TNoAntrian": "C7",
+      "TJamDaftar": "07:00",
+      "TStatus": "Menunggu"
+    }
+  ],
+  "MPatient": [
+    {
+      "PatientID":"00000001",
+      "Data":{
+        "PatientID": "00000001",
+        "PatientReg": "REG/0001/0001",
+        "PatientName": "FIRNA NASYWA SALSABILA",
+        "PatientSex": "P",
+        "PatientBirthPlace": "-",
+        "PatientBirthDate": "2006-03-16",
+        "PatientReligion": "ISLAM",
+        "PatientPhoneNumber": "8094744",
+        "PatientAddress": "KOMP. KODAM JAYA",
+        "PatientPIC": "FIRNA NASYWA SALSABILA"
+      }
+    },
+    {
+      "PatientID":"00000002",
+      "Data":{
+        "PatientID": "00000002",
+        "PatientReg": "REG/0002/0002",
+        "PatientName": "BAYU EKA PRATAMA",
+        "PatientSex": "L",
+        "PatientBirthPlace": "-",
+        "PatientBirthDate": "2006-04-15",
+        "PatientReligion": "BUDDHA",
+        "PatientPhoneNumber": "8087 3642",
+        "PatientAddress": "JL. DEWI SARTIKA NO. 70",
+        "PatientPIC": "Bayu Eka Pratama"
+      }
+    },
+    {
+      "PatientID":"00000003",
+      "Data":{
+        "PatientID": "00000003",
+        "PatientReg": "REG/0003/0003",
+        "PatientName": "RAHMA AZZAHRA",
+        "PatientSex": "P",
+        "PatientBirthPlace": "-",
+        "PatientBirthDate": "2003-10-27",
+        "PatientReligion": "ISLAM",
+        "PatientPhoneNumber": "8095856",
+        "PatientAddress": "JL. KAMBOJA 19",
+        "PatientPIC": "Rahma Azzahra"
+      }
+    },
+    {
+      "PatientID":"00000004",
+      "Data":{
+        "PatientID": "00000004",
+        "PatientReg": "REG/0004/0004",
+        "PatientName": "KHAYLA MULYANTI",
+        "PatientSex": "P",
+        "PatientBirthPlace": "-",
+        "PatientBirthDate": "2006-01-22",
+        "PatientReligion": "ISLAM",
+        "PatientPhoneNumber": "-",
+        "PatientAddress": "JL. CIPINANG ASEM NO. 88",
+        "PatientPIC": "Khayla Mulyanti"
+      }
+    },
+    {
+      "PatientID":"00000005",
+      "Data":{
+        "PatientID": "00000005",
+        "PatientReg": "REG/0005/0005",
+        "PatientName": "MAULIDYA APRIYANI",
+        "PatientSex": "P",
+        "PatientBirthPlace": "-",
+        "PatientBirthDate": "2005-04-18",
+        "PatientReligion": "ISLAM",
+        "PatientPhoneNumber": "8001723",
+        "PatientAddress": "KEBON PALA NO. 26",
+        "PatientPIC": "Maulidya Apriyani"
+      }
+    },
+    {
+      "PatientID":"00000006",
+      "Data":{
+        "PatientID": "00000006",
+        "PatientReg": "REG/0006/0006",
+        "PatientName": "GREGORIAN IVOLITO R.",
+        "PatientSex": "L",
+        "PatientBirthPlace": "-",
+        "PatientBirthDate": "2003-11-05",
+        "PatientReligion": "KATHOLIK",
+        "PatientPhoneNumber": "9243307",
+        "PatientAddress": "JL. CILILITAN BESAR NO. 44",
+        "PatientPIC": "Gregorin Ivolito. R"
+      }
+    },
+    {
+      "PatientID":"00000007",
+      "Data":{
+        "PatientID": "00000007",
+        "PatientReg": "REG/0007/0007",
+        "PatientName": "RANIA FAUZIAH NUR W.",
+        "PatientSex": "P",
+        "PatientBirthPlace": "-",
+        "PatientBirthDate": "2006-12-22",
+        "PatientReligion": "ISLAM",
+        "PatientPhoneNumber": "08568015750",
+        "PatientAddress": "JL. INERBANG NO. 128",
+        "PatientPIC": "RANIA FAUZIAH NUR W"
+      }
+    }
+  ],
+  "MDoctor":[
+    {
+      "DoctorID":"D0001",
+      "DoctorName":"dr. Aplin Ismunanto, Sp.B",
+      "JadwalMulai":"08:00",
+      "JadwalAkhir":"12:00",
+      "PoliID":"P0004",
+      "PoliName":"POLI BEDAH_SPESIALIS",
+      "DoctorPicture":"D0001"
+    },
+    {
+      "DoctorID":"D0002",
+        "DoctorName":"dr. Binsar Simorangkir",
+        "JadwalMulai":"13:00",
+        "JadwalAkhir":"16:00",
+        "PoliID":"P0002",
+        "PoliName":"POLI OBGYN_SPESIALIS",
+        "DoctorPicture":"D0002"
+    },
+    {
+      "DoctorID":"D0003",
+        "DoctorName":"dr. Budi",
+        "JadwalMulai":"13:00",
+        "JadwalAkhir":"16:00",
+        "PoliID":"P0002",
+        "PoliName":"POLI OBGYN_SPESIALIS",
+        "DoctorPicture":"D0002"
+    },
+    {
+      "DoctorID":"D0006",
+        "DoctorName":"dr. H.A. Syaiful K",
+        "JadwalMulai":"13:00",
+        "JadwalAkhir":"16:00",
+        "PoliID":"P0009",
+        "PoliName":"POLI INTERNIST_SPESIALIS",
+        "DoctorPicture":"D0002"
+    }
+  ],
+  "GetDataPatientByDoctorID":[
+    {
+      "DoctorID":"D0001",
+      "DataPatient":[
+        {
+          "Number": "1",
+          "TRegTypeService": "RJ",
+          "TRegPatientID": "00000001",
+          "MPatientName": "FIRNA NASYWA SALSABILA",
+          "TRegPoli": "POLI BEDAH_SPESIALIS",
+          "TRegDoctorID": "D0001",
+          "TRegDoctor": "dr. Aplin Ismunanto, Sp.B",
+          "TRekanan": "",
+          "TNoAntrian": "C1",
+          "TJamDaftar": "01:00",
+          "TStatus": "Menunggu"
+        },
+        {
+          "Number": "2",
+          "TRegTypeService": "RJ",
+          "TRegPatientID": "00000002",
+          "MPatientName": "BAYU EKA PRATAMA",
+          "TRegPoli": "POLI BEDAH_SPESIALIS",
+          "TRegDoctorID": "D0001",
+          "TRegDoctor": "dr. Aplin Ismunanto, Sp.B",
+          "TRekanan": "",
+          "TNoAntrian": "C2",
+          "TJamDaftar": "02:00",
+          "TStatus": "Menunggu"
+        },
+        {
+          "Number": "5",
+          "TRegTypeService": "RJ",
+          "TRegPatientID": "00000005",
+          "MPatientName": "MAULIDYA APRIYANI",
+          "TRegPoli": "POLI BEDAH_SPESIALIS",
+          "TRegDoctorID": "D0001",
+          "TRegDoctor": "dr. Aplin Ismunanto, Sp.B",
+          "TRekanan": "",
+          "TNoAntrian": "C5",
+          "TJamDaftar": "05:00",
+          "TStatus": "Menunggu"
+        }
+      ]
+    },
+    {
+      "DoctorID":"D0002",
+      "DataPatient":[
+        {
+          "Number": "3",
+          "TRegTypeService": "RJ",
+          "TRegPatientID": "00000003",
+          "MPatientName": "RAHMA AZZAHRA",
+          "TRegPoli": "POLI OBGYN_SPESIALIS",
+          "TRegDoctorID": "D0002",
+          "TRegDoctor": "dr. Binsar Simorangkir",
+          "TRekanan": "",
+          "TNoAntrian": "C3",
+          "TJamDaftar": "03:00",
+          "TStatus": "Menunggu"
+        }
+      ]
+    },
+    {
+      "DoctorID":"D0003",
+      "DataPatient":[
+        {
+          "Number": "4",
+          "TRegTypeService": "RJ",
+          "TRegPatientID": "00000004",
+          "MPatientName": "KHAYLA MULYANTI",
+          "TRegPoli": "POLI OBGYN_SPESIALIS",
+          "TRegDoctorID": "D0003",
+          "TRegDoctor": "dr. Budi",
+          "TRekanan": "",
+          "TNoAntrian": "C4",
+          "TJamDaftar": "04:00",
+          "TStatus": "Menunggu"
+        },
+        {
+          "Number": "7",
+          "TRegTypeService": "RJ",
+          "TRegPatientID": "00000007",
+          "MPatientName": "RANIA FAUZIAH NUR W.",
+          "TRegPoli": "POLI OBGYN_SPESIALIS",
+          "TRegDoctorID": "D0003",
+          "TRegDoctor": "dr. Budi",
+          "TRekanan": "",
+          "TNoAntrian": "C7",
+          "TJamDaftar": "07:00",
+          "TStatus": "Menunggu"
+        }
+      ]
+    },
+    {
+      "DoctorID":"D0006",
+      "DataPatient":[
+        {
+          "Number": "6",
+          "TRegTypeService": "RJ",
+          "TRegPatientID": "00000006",
+          "MPatientName": "GREGORIAN IVOLITO R.",
+          "TRegPoli": "POLI INTERNIST_SPESIALIS",
+          "TRegDoctorID": "D0006",
+          "TRegDoctor": "dr. H.A. Syaiful K",
+          "TRekanan": "",
+          "TNoAntrian": "C6",
+          "TJamDaftar": "06:00",
+          "TStatus": "Menunggu"
+        }
+      ]
+    }
+   
+  ]
+}
